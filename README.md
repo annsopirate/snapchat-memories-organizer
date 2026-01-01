@@ -1,8 +1,12 @@
 # Snapchat Memories: Complete Workflow (Downloader + Organizer + Overlay Merger)
 
-**⚠️ OS COMPATIBILITY: WINDOWS ONLY**
+**⚠️ NOTE ON OS COMPATIBILITY**
 
-This repository provides a complete workflow to download your Snapchat Memories, fix their metadata (dates), organize them into folders (Year/Month), and merge the "overlay" text/stickers back onto your photos and videos.
+This guide is written for **Windows**. 
+However, the Python scripts provided here are **cross-platform** and will work on macOS and Linux. 
+If you are on Mac or Linux, you can use these scripts, but you will need to adapt the terminal commands (specifically for installing/running ExifTool and FFmpeg) to your operating system.
+
+**This repository provides a complete workflow to download your Snapchat Memories, fix their metadata (dates), organize them into folders (Year/Month), and merge the "overlay" text/stickers back onto your photos and videos.**
 
 It is designed as an extension to the [Snapchat Memories Downloader by Manuel Puchner](https://github.com/ManuelPuchner/snapchat-memories-downloader).
 
@@ -143,3 +147,4 @@ python flatten_folders.py
 ---
 
 And, that's it. I hope everything worked out for you and that you didn't encounter any problems. If you need help, you can send me a message on Reddit, and i will try to help you: u/lord_annso. Thank you for your trust!
+
