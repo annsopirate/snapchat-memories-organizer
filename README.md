@@ -43,8 +43,9 @@ While the scripts below are designed to be safe, mistakes happen (e.g., incorrec
 
 ### ⚠️ IMPORTANT INSTRUCTIONS FOR EACH SCRIPT BELOW:
 
-1. **EDIT THE PATH:** In every script, look for `TARGET_FOLDER = r"C:\YOUR\PATH\HERE"`. You must change this to the actual location of your memories folder.
-2. **SIMULATION MODE:** By default, scripts are in **Simulation Mode** `(SIMULATION = True)`. Run them once to see what they would do. Change to `False` to execute them for real.
+1. **DOWNLOAD & PLACE:** Download the scripts and place them in the **root folder** of the project (the same folder where the scripts of the **first step** are located). Do **not** put the scripts inside the `snapchat_memories` folder itself.
+2. **EDIT THE PATH:** In every script, look for `TARGET_FOLDER = r"C:\YOUR\PATH\HERE"`. You must change this to the actual location of your memories folder.
+3. **SIMULATION MODE:** By default, scripts are in **Simulation Mode** `(SIMULATION = True)`. Run them once to see what they would do. Change to `False` to execute them for real.
 
 ---
 
@@ -140,4 +141,5 @@ python flatten_folders.py
 ```
 
 ---
+
 And, that's it. I hope everything worked out for you and that you didn't encounter any problems. If you need help, you can send me a message on Reddit, and i will try to help you: u/lord_annso. Thank you for your trust!
