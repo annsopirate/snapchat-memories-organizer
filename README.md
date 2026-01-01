@@ -146,5 +146,25 @@ python flatten_folders.py
 
 ---
 
+## Step 8: Group by Year
+
+By default, Step 4 creates many folders named "Month Year" (e.g., "January 2018", "February 2018") in your main directory. 
+This script groups them into parent **Year** folders (e.g., puts "January 2018" inside a "2018" folder) to keep your root directory clean.
+
+**Setup:**
+
+1. Download `group_by_year.py`.
+2. Edit the file: Change `TARGET_FOLDER` to your memories path.
+3. Change `SIMULATION = False` when ready.
+
+**Command to run in your terminal:**
+
+```bash
+python group_by_year.py
+```
+
+---
+
 And, that's it. I hope everything worked out for you and that you didn't encounter any problems. If you need help, you can send me a message on Reddit, and i will try to help you: u/lord_annso. Thank you for your trust!
+
 
